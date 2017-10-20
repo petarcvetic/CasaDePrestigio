@@ -1,11 +1,11 @@
 /*
 @media screen and (max-width: 992px) and (min-width: 767px) {
 
-    
+
 }
 
 
-/*PETAR----------------------------------------------------------------*/
+/*PETAR-------------------------1---------------------------------------*/
 #bodyBox{
 	background-image: url("../img/back.jpg");  
 	width:100%;
@@ -56,7 +56,7 @@ iframe{
 	margin:20px;
 }
 
-#info{	
+#info{
 	font-size:150%;
 	padding:100px 20px 0 20px;
 	/*color:rgb(220, 220, 220);*/
@@ -89,7 +89,7 @@ iframe{
 	font-size:150%;
 	padding:20px 20px 0 20px;
 	width:90%;
-	margin:auto;   
+	margin:auto;
 	/*color:rgb(220, 220, 220);*/
 	color:rgb(255,255,255)
 }
@@ -164,7 +164,7 @@ iframe{
 	margin-left: 0px;
 	margin-top: 15px;
 }
-	
+
 
 /*END PETAR------------------------------------------------------------*/
 @media screen and (max-width: 1330px) and (min-width: 993px) {
@@ -175,18 +175,18 @@ iframe{
 		margin:20px;
 	}
 
-	#info{	
+	#info{
 		font-size:120%;
 		padding:100px 20px 0 20px;
 		/*color:rgb(220, 220, 220);*/
 		color:rgba(255,255,255,1.00);
 		width:45%;
 	}
-	
+
 	#logo{
 		width:140px;
 	}
-	
+
 	#moto {
 		font-size: 16px;
 		margin-left: 0;
@@ -202,16 +202,16 @@ iframe{
 		margin-left:7%;
 		overflow: scroll;
 	}
-	
+
 	.artikal-image{
 		display: block;
 		width:33%;
 		height:auto;
 		float:left;
-		margin:auto;   
-		padding:2.5%;  
+		margin:auto;
+		padding:2.5%;
 	}
-	
+
 	#secoundMenu{
 		position: fixed;
 		right: 60px;
@@ -220,8 +220,8 @@ iframe{
 		height:35px;
 	}
 
-	
-	
+
+
 	.naslov{
 		margin:50px;
 		text-align:center;
@@ -232,11 +232,11 @@ iframe{
 		font-size:150%;
 		padding:20px 20px 0 20px;
 		width:90%;
-		margin:auto;   
+		margin:auto;
 		/*color:rgb(220, 220, 220);*/
 		color:rgba(255,255,255,1.00);
 	}
-	
+
 	iframe{
 		float:none;
 		width:80%;
@@ -244,7 +244,7 @@ iframe{
 		margin:20px 10% 20px 10%;
 	}
 
-	#info{	
+	#info{
 		font-size:100%;
 		padding:40px 20px 40px 20px;
 		/*color:rgb(220, 220, 220);*/
@@ -255,7 +255,7 @@ iframe{
 	#logo{
 		width:125px;
 	}
-	
+
 	#moto {
 		font-size: 14px;
 		margin-left: 0;
@@ -272,16 +272,16 @@ iframe{
 		margin-left:7%;
 		overflow: scroll;
 	}
-	
+
 	.artikal-image{
 		display: block;
 		width:33%;
 		height:auto;
 		float:left;
-		margin:auto;   
-		padding:2.5%;  
+		margin:auto;
+		padding:2.5%;
 	}
-	
+
 	#secoundMenu{
 		position: fixed;
 		right: 60px;
@@ -290,8 +290,8 @@ iframe{
 		height:35px;
 	}
 
-	
-	
+
+
 	.naslov{
 		margin:50px;
 		text-align:center;
@@ -302,11 +302,11 @@ iframe{
 		font-size:150%;
 		padding:20px 20px 0 20px;
 		width:90%;
-		margin:auto;   
+		margin:auto;
 		/*color:rgb(220, 220, 220);*/
 		color:rgba(255,255,255,1.00);
 	}
-	
+
 	iframe{
 		float:none;
 		width:80%;
@@ -314,7 +314,7 @@ iframe{
 		margin:20px 10% 20px 10%;
 	}
 
-	#info{	
+	#info{
 		font-size:100%;
 		padding:40px 20px 40px 20px;
 		/*color:rgb(220, 220, 220);*/
@@ -325,7 +325,7 @@ iframe{
 	#logo{
 		width:115px;
 	}
-	
+
 	#moto {
 		font-size: 12px;
 		margin-left: 0;
@@ -343,30 +343,30 @@ iframe{
 		margin-left:0;
 		overflow: scroll;
 	}
-	
+
 	.artikal-image{
 		display: block;
 		width:45%;
 		height:auto;
 		float:left;
-		margin:2.5%;   
+		margin:2.5%;
 /*		padding:2.5%;  */
 	}
-	
+
 	#secoundMenu{
 		visibility:visible;
 		position: fixed;
 		right: 0px;
-		top: 0px;  
+		top: 0px;
 		background-color: rgba(140, 140, 140, 0);
 		height:35px;
 	}
-	
+
 	#burgerMenu{
 		display:initial;
 	}
-	
-	
+
+
 	.naslov{
 		font-size:200%;
 		margin:30px 10px;
@@ -378,11 +378,11 @@ iframe{
 		font-size:120%;
 		padding:20px 10px 0 10px;
 		width:95%;
-		margin:auto;   
+		margin:auto;
 		/*color:rgb(220, 220, 220);*/
 		color:rgba(255,255,255,1.00);
 	}
-	
+
 	iframe{
 		float:none;
 		width:90%;
@@ -390,7 +390,7 @@ iframe{
 		margin:20px 5% 20px 5%;
 	}
 
-	#info{	
+	#info{
 		font-size:110%;
 		padding:30px 20px 40px 20px;
 		color:rgb(220, 220, 220);
@@ -400,7 +400,7 @@ iframe{
 	#logo{
 		width:175px;
 	}
-	
+
 	#moto {
 		font-size: 14px;
 		margin-left: 0;
@@ -417,30 +417,30 @@ iframe{
 		margin-left:0;
 		overflow: scroll;
 	}
-	
+
 	.artikal-image{
 		display: block;
 		width:45%;
 		height:auto;
 		float:left;
-		margin:2.5%;   
+		margin:2.5%;
 /*		padding:2.5%;  */
 	}
-	
+
 	#secoundMenu{
 		visibility:visible;
 		position: fixed;
 		right: 0px;
-		top: 0px;  
+		top: 0px;
 		background-color: rgba(140, 140, 140, 0);
 		height:35px;
 	}
-	
+
 	#burgerMenu{
 		display:initial;
 	}
-	
-	
+
+
 	.naslov{
 		font-size:200%;
 		margin:30px 10px;
@@ -452,11 +452,11 @@ iframe{
 		font-size:120%;
 		padding:20px 10px 0 10px;
 		width:95%;
-		margin:auto;   
+		margin:auto;
 		/*color:rgb(220, 220, 220);*/
 		color:rgba(255,255,255,1.00);
 	}
-	
+
 	iframe{
 		float:none;
 		width:90%;
@@ -464,7 +464,7 @@ iframe{
 		margin:20px 5% 20px 5%;
 	}
 
-	#info{	
+	#info{
 		font-size:110%;
 		padding:30px 20px 40px 20px;
 		color:rgb(220, 220, 220);
@@ -474,7 +474,7 @@ iframe{
 	#logo{
 		width:115px;
 	}
-	
+
 	#moto {
 		font-size: 12px;
 		margin-left: 0;
