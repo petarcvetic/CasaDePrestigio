@@ -1,0 +1,402 @@
+/*
+ * Glen Raven Base
+ *
+ * DRY Styles
+ */
+
+/**
+ * general
+ */
+html.no-scroll {
+    overflow: hidden;
+}
+
+body {
+    color: #6a6a6a;
+}
+
+/**
+ * background colors
+ */
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.bg-white {
+    background-color: #fff;
+}
+
+/**
+ * display
+ */
+.dis-none {
+    display: none;
+}
+.dis-inline-block {
+    display: inline-block;
+}
+
+/**
+ * duration
+ */
+.duration200 {
+    -webkit-animation-duration: 200ms;
+    animation-duration: 200ms;
+}
+.duration400 {
+    -webkit-animation-duration: 400ms;
+    animation-duration: 400ms;
+}
+
+/**
+ * font size
+ */
+.font-18 {
+    font-size: 18px;
+}
+
+/**
+ * height/width
+ */
+.full-height {
+    height: 100%;
+}
+.full-width {
+    width: 100%;
+}
+
+/**
+ * margin
+ */
+.margin-t-64 {
+    margin-top: 64px;
+}
+.margin-b-32 {
+    margin-bottom: 32px;
+}
+.margin-t-32 {
+    margin-top: 32px;
+}
+.margin-b-16 {
+    margin-bottom: 16px;
+}
+.margin-l-16 {
+    margin-left: 16px;
+}
+.margin-t-16 {
+    margin-top: 16px;
+}
+.margin-b-8 {
+    margin-bottom: 8px;
+}
+.margin-l-8 {
+    margin-left: 8px;
+}
+.margin-t-8 {
+    margin-top: 8px;
+}
+.margin-b-4 {
+    margin-bottom: 4px;
+}
+.margin-0 {
+    margin: 0;
+}
+.margin-0-auto {
+    margin: 0 auto;
+}
+.margin-b-0 {
+    margin-bottom: 0;
+}
+
+/**
+ * padding
+ */
+.padding-b-32 {
+    padding-bottom: 32px;
+}
+.padding-t-32 {
+    padding-top: 32px;
+}
+.padding-16 {
+    padding: 16px;
+}
+.padding-b-16 {
+    padding-bottom: 16px;
+}
+.padding-l-16 {
+    padding-left: 16px;
+}
+.padding-r-16 {
+    padding-right: 16px;
+}
+.padding-t-16 {
+    padding-top: 16px;
+}
+.padding-l-15 {
+    padding-left: 15px!important;
+}
+.padding-b-8 {
+    padding-bottom: 8px;
+}
+.padding-0 {
+    padding: 0;
+}
+.padding-l-0 {
+    padding-left: 0;
+}
+.padding-r-0 {
+    padding-right: 0;
+}
+
+/**
+ * transition
+ */
+.no-transition {
+    transition: none!important;
+}
+
+/**
+ * text transform
+ */
+.capitalize {
+    text-transform: capitalize;
+}
+/* because ie8 (this guy.. this guy gets it) */
+.cap-first-letter::first-letter,
+.cap-first-letter:first-letter {
+    text-transform: capitalize;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+/**
+ * vertical align
+ */
+.vert-align-middle {
+    vertical-align: middle!important;
+}
+
+/**
+ * helpers
+ */
+
+/**
+ * positioning
+ */
+.position-relative {
+    position: relative;
+}
+
+/**
+ * text decoration
+ */
+.text-decoration-none,
+.text-decoration-none:hover,
+.text-decoration-none:focus {
+    text-decoration: none;
+}
+
+/**
+ * scaffolding
+ */
+/* containers */
+.container-fixed {
+    left: 0;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    z-index: 100;
+}
+.container-fluid-max-width {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+.container-fluid-max-width .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.container-fluid-max-width .row .no-padding-right {
+    padding-right: 15px;
+}
+
+/* gutter - 0px */
+.row.gutter-0 {
+	margin-left: 0;
+	margin-right: 0;
+}
+.row.gutter-0 > [class^="col-"],
+.row.gutter-0 > [class^=" col-"] {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* gutter - 4px */
+.row.gutter-4 {
+	margin-left: -2px;
+	margin-right: -2px;
+}
+.row.gutter-4 > [class^="col-"],
+.row.gutter-4 > [class^=" col-"] {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+/* gutter - 8px */
+.row.gutter-8 {
+	margin-left: -4px!important;
+	margin-right: -4px!important;
+}
+.row.gutter-8 > [class^="col-"],
+.row.gutter-8 > [class^=" col-"] {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+/* gutter - 30px */
+.row.gutter-30 > [class^="col-"],
+.row.gutter-30 > a > [class^="col-"] {
+	padding: 15px;
+}
+
+/* 4.5 columns */
+.four-five-cols .col-xs-1,
+.four-five-cols .col-sm-1,
+.four-five-cols .col-md-1,
+.four-five-cols .col-lg-1 {
+	position: relative;
+}
+.four-five-cols .col-xs-1 {
+	float: left;
+	width: 22.22222%;
+}
+
+/* 5 columns */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+	min-height: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+.col-xs-15 {
+	float: left;
+	width: 20%;
+}
+
+/* 9 columns */
+.nine-cols .col-xs-1,
+.nine-cols .col-sm-1,
+.nine-cols .col-md-1,
+.nine-cols .col-lg-1 {
+	position: relative;
+}
+.nine-cols .col-xs-1 {
+	float: left;
+	width: 11.11111%;
+}
+
+/* tablets (sm) */
+@media (min-width: 768px) {
+    /**
+     * scaffolding
+     */
+    /* containers */
+    .container-fluid-max-width .row .no-padding-right {
+        padding-right: 0;
+    }
+
+    /* 4.5 columns */
+    .four-five-cols .col-sm-1 {
+		float: left;
+		width: 22.22222%;
+	}
+
+    /* 5 columns */
+	.col-sm-15 {
+		float: left;
+		width: 20%;
+	}
+
+    /* 9 columns */
+	.nine-cols .col-sm-1 {
+		float: left;
+		width: 11.11111%;
+	}
+}
+
+/* desktop (md) */
+@media (min-width: 992px) {
+    /**
+     * scaffolding
+     */
+    /* 4.5 columns */
+    .four-five-cols .col-md-1 {
+		float: left;
+		width: 22.22222%;
+	}
+
+    /* 5 columns */
+	.col-md-15 {
+		float: left;
+		width: 20%;
+	}
+
+    /* 9 columns */
+	.nine-cols .col-md-1 {
+		float: left;
+		width: 11.11111%;
+	}
+}
+
+/* large devices (lg) */
+@media (min-width: 1200px) {
+    /**
+     * scaffolding
+     */
+    /* 4.5 columns */
+    .four-five-cols .col-lg-1 {
+		float: left;
+		width: 22.22222%;
+	}
+
+    /* 5 columns */
+	.col-lg-15 {
+		float: left;
+		width: 20%;
+	}
+
+    /* 9 columns */
+	.nine-cols .col-lg-1 {
+		float: left;
+		width: 11.11111%;
+	}
+}
+
+/* fonts -_- */
+@font-face {
+  font-family: 'Avenir LT Std 45 Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('fonts/Avenir LT Std 45 Book'), url('fonts/AvenirLTStd-Book.woff') format('woff');
+}
+@font-face {
+  font-family: 'Avenir LT Std 85 Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('fonts/Avenir LT Std 85 Heavy'), url('fonts/AvenirLTStd-Heavy.woff') format('woff');
+}
+@font-face {
+  font-family: 'Avenir LT Std 35 Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('fonts/Avenir LT Std 35 Light'), url('fonts/AvenirLTStd-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Avenir LT Std 55 Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('fonts/Avenir LT Std 55 Roman'), url('fonts/AvenirLTStd-Roman.woff') format('woff');
+}

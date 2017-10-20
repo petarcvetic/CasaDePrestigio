@@ -1,0 +1,1534 @@
+/**
+ * BASE STYLES
+ */
+ .full-width {
+   width: 100%;
+ }
+
+/* mobile (xs) */
+.market {
+    color: #2c2c2c;
+    font-family: 'Avenir LT Std 45 Book';
+}
+.market .logo {
+    width: 124px;
+}
+.market .circle-left {
+    height: 52px;
+    width: 32px;
+}
+.market h1 {
+    color: #6a6a6a;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.market h2 {
+    font-size: 32px;
+}
+.market h3 {
+    font-size: 28px;
+    margin-top: 0;
+}
+.market h4 {
+	font-family: 'Avenir LT Std 85 Heavy';
+	font-size: 20px;
+}
+.market .block-fabrics h4 {
+    font-family: 'Avenir LT Std 45 Book';
+}
+.market p {
+	color: #6a6a6a;
+	font-size: 14px;
+	line-height: 36px;
+}
+.margin-t-150 {
+    margin-top: 150px;
+}
+.padding-b-60 {
+    padding-bottom: 60px;
+}
+.margin-b-60 {
+    margin-bottom: 60px;
+}
+.margin-b-80 {
+    margin-bottom: 80px;
+}
+.border {
+	border: 1px solid #000;
+	/*max-width: 1540px;*/
+	margin: -50px auto;
+	position: relative;
+}
+.market .border-bottom-grey {
+    border-bottom: 1px solid #d1d1d1;
+}
+
+/**
+ * ACCENTS
+ */
+.accent-bottom-center {
+    bottom: 0;
+    height: 2px;
+    left: 50%;
+    margin-left: -35px;
+    position: absolute;
+    width: 70px;
+}
+.accent-top-left {
+    height: 76px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 2px;
+}
+
+/**
+ * LARGE BLOCK
+ */
+.block-large {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.block-large a,
+.block-large p {
+    color: #fff;
+}
+.call-to-action-arrow {
+    height: 24px;
+    width: 98px;
+}
+
+/**
+ * BLOCK HERO ELEMENT
+ * ('Elements/market/block-hero.php')
+ */
+.market .page-hero {
+    position: relative;
+    padding: 0;
+}
+.market .page-hero img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.market .arrow-logo {
+    margin: 135px 0 0 24px;
+}
+.market .arrow-logo .logo,
+.market .arrow-logo .circle-left {
+    float: left;
+}
+.market .panel-white {
+    background-color: #fff;
+    padding: 15px;
+    -webkit-transition: height 400ms ease;
+    -moz-transition: height 400ms ease;
+    -o-transition: height 400ms ease;
+    transition: height 400ms ease;
+}
+.market .panel-white .nav.nav-pills> li.cap-first-letter> a {
+    color: #6a6a6a;
+}
+.market .nav-pills li.burger {
+    display: none;
+}
+.market .nav-pills li.burger a {
+    color: #6a6a6a;
+    padding-right: 10px;
+}
+.market .panel-white .breadcrumb {
+    background-color: transparent;
+    color: #95989a;
+    font-family: 'Avenir LT Std 45 Book';
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.market .panel-white .breadcrumb> li+ li:before {
+    color: #95989a;
+}
+.market .panel-white .breadcrumb a {
+    font-family: 'Avenir LT Std 85 Heavy';
+}
+.market .panel-white .arrow-long-down {
+    position: absolute;
+    right: 22px;
+	top: 400px;
+    -webkit-transition: top 400ms ease;
+    -moz-transition: top 400ms ease;
+    -o-transition: top 400ms ease;
+    transition: top 400ms ease;
+    width: 23px;
+}
+.market .panel-white img {
+	padding-left: 0;
+}
+
+/**
+ * BLOCK HERO LEFT ELEMENT
+ * ('Elements/market/block-hero-left.php')
+ *
+ */
+.market .block-hero-left {
+	padding-bottom: 50px;
+}
+.market .block-hero-left .logo {
+	margin: 16px 0 0 0;
+}
+.market .block-hero-left .nav.nav-pills {
+	margin-top: 8px;
+}
+.market .block-hero-left .nav-pills li.burger {
+   display: block;
+   position: fixed;
+   right: 15px;
+   top: 10px;
+   z-index: 200;
+}
+.market .block-hero-left .arrow-long-down {
+	margin-top: 150px;
+	position: absolute;
+	right: 23px;
+	width: 23px;
+}
+
+/**
+ * margin/padding reset
+ */
+.market .block-hero-left .hero-content h1,
+.market .block-hero-left .hero-content .breadcrumb {
+	margin: 0;
+	padding: 0;
+}
+.market .block-hero-left .hero-content {
+	margin-top: 40px;
+}
+.market .block-hero-left .hero-content h1 {
+	margin-top: 16px;
+	margin-bottom: 32px;
+}
+.market .block-hero-left .nav.nav-pills > li > a,
+.market .block-hero-left .nav.nav-pills > li > a:focus,
+.market .block-hero-left .nav.nav-pills > li > a:hover {
+	color: #6a6a6a;
+}
+
+/**
+ * LEARN MORE STYLES
+ */
+.market .learn-more {
+    padding-bottom: 32px;
+	padding-left: 16px;
+	padding-top: 32px;
+}
+.market .learn-more a {
+	font-size: 24px;
+}
+
+/**
+ * MENU STICKY ELEMENT
+ * ('Elements/market/menu-sticky.php')
+ */
+.market .menu-sticky-w {
+    background-color: #f6f6f6;
+    display: none;
+    height: 69px;
+    width: 100%;
+    z-index: 100;
+}
+.market .menu-sticky-w.active {
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition: box-shadow 800ms ease-in;
+    -moz-transition: box-shadow 800ms ease-in;
+    -o-transition: box-shadow 800ms ease-in;
+    transition: box-shadow 800ms ease-in;
+}
+.market .menu-sticky {
+    background-color: #f6f6f6;
+    font-family: 'Avenir LT Std 85 Heavy';
+    height: 69px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    /*max-width: 1510px;*/
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+.market .menu-sticky .grey-circle-left {
+    background: #f6f6f6;
+    margin-left: 0;
+    margin-top: 20px;
+    padding-bottom: 21px;
+    padding-right: 16px;
+    position: absolute;
+    width: 44px;
+}
+.market .menu-sticky .logo {
+    background: #f6f6f6;
+    left: 38px;
+    margin: 0;
+    padding: 21px 14px 24px 0;
+    position: absolute;
+    width: 110px;
+}
+.market .menu-sticky ul,
+.market .menu-sticky ul li {
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+}
+.market .menu-sticky ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 6px 0 0 0;
+    overflow-x: scroll;
+    padding: 0 26px 15px 150px;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+.market .menu-sticky ul li {
+    border-bottom: 3px solid transparent;
+    display: inline-block;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.market .menu-sticky ul li:hover,
+.market .menu-sticky ul li.active {
+    -webkit-transition: border 400ms ease-in;
+    -moz-transition: border 400ms ease-in;
+    -o-transition: border 400ms ease-in;
+    transition: border 400ms ease-in;
+}
+.market .menu-sticky ul li a {
+    color: #6a6a6a;
+    display: inline-block;
+    padding: 20px 0;
+    text-decoration: none;
+    -webkit-transition: color 600ms ease;
+    -moz-transition: color 600ms ease;
+    -o-transition: color 600ms ease;
+    transition: color 600ms ease;
+}
+.market .menu-sticky a.burger {
+    background: #f6f6f6;
+    color: #6a6a6a;
+    font-size: 20px;
+    line-height: 21px;
+    padding: 25px 1px 21px 10px;
+    position: absolute;
+    right: -2px;
+}
+
+/**
+ * BLOCK DESIGN ELEMENT
+ * ('Elements/market/block-design.php')
+ */
+.market .block-design,
+.market .block-design h2,
+.market .block-design p {
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+/**
+ * BLOCK DESIGN ELEMENT
+ * ('Elements/market/block-design.php')
+ *
+ * HEADING AND COLUMNS
+ * ('Elements/market/heading-and-columns.php')
+ *
+ * MASONRY TEXT
+ * ('Elements/market/masonry-text.php')
+ *
+ * TEXT WITH ACCENT ELEMENT
+ * ('Elements/market/text-with-accent/php')
+ */
+.market .block-design,
+.market .heading-and-columns,
+.market .masonry-text,
+.block-design .text-accent-img {
+   padding-bottom: 16px;
+	padding-top: 16px;
+}
+.market .masonry-text .left-column,
+.market .masonry-text .center-column {
+   padding-left: 0;
+   padding-right: 0;
+}
+.market .heading-and-columns h3 {
+   margin-top: 20px;
+}
+
+/**
+ * BLOCK FEATURES ELEMENT
+ * ('Elements/market/block-features.php')
+ */
+.block-features {
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+.block-features .content {
+	padding: 16px 0;
+}
+.block-features .header-icon {
+    margin-bottom: 24px;
+}
+.block-features .header-icon img {
+    height: 55px;
+    width: 55px;
+}
+.block-features p a {
+    font-family: 'Avenir LT Std 85 Heavy';
+}
+
+/**
+* VIDEO PREVIEW ELEMENT
+* ('Element/market/video-preview.php')
+*/
+.video-preview {
+	cursor: pointer;
+	margin-bottom: 48px;
+	margin-top: 48px;
+}
+.video-preview .video-preview-block {
+	background-color: #f6f6f6;
+	color: #555;
+	font-family: 'Avenir LT Std 85 Heavy';
+	-webkit-transition: box-shadow 800ms ease-out;
+	-moz-transition: box-shadow 800ms ease-out;
+	-o-transition: box-shadow 800ms ease-out;
+	transition: box-shadow 800ms ease-out;
+}
+.video-preview .video-preview-block:hover {
+	-webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+	-webkit-transition: box-shadow 400ms ease-in;
+	-moz-transition: box-shadow 400ms ease-in;
+	-o-transition: box-shadow 400ms ease-in;
+	transition: box-shadow 400ms ease-in;
+}
+.video-preview .video-preview-block .video-preview-img,
+.video-preview .video-preview-block .video-preview-img img,
+.video-preview .video-preview-block .video-preview-img .video-preview-overlay,
+.video-preview .video-preview-block .video-preview-text {
+	height: 150px;
+	max-width: 275px;
+	width: 100%;
+}
+.video-preview .video-preview-block .video-preview-img .video-preview-overlay,
+.video-preview .video-preview-block .video-preview-img img {
+	padding: 0;
+}
+.video-preview .video-preview-block .video-preview-img .video-preview-overlay {
+	background: url('//cdn.glenraven.net/sb2016/img/icons/btn-play-white.svg') no-repeat center center;
+	background-color: rgba(0,0,0, 0.4);
+	background-size: 70px 70px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: 400ms ease-in;
+	-moz-transition: 400ms ease-in;
+	-o-transition: 400ms ease-in;
+	transition: 400ms ease-in;
+}
+.video-preview .video-preview-block .video-preview-img:hover .video-preview-overlay {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+.video-preview .video-preview-block .video-preview-text {
+	background-color: #f6f6f6;
+	display: table-cell;
+	vertical-align: middle;
+	height: 150px;
+	line-height: 30px;
+}
+.video-preview .video-preview-block .video-preview-text:hover {
+	text-decoration: underline;
+}
+/**
+ * GALLERY ELEMENT
+ * ('Elements/market/gallery.php')
+ */
+.page-gallery {
+    position: relative;
+	z-index: 10; /*Set to prevent content overlap from border classes*/
+}
+.page-gallery .gallery-overlay {
+    transition: background-color 500ms ease-out;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+}
+.page-gallery .gallery-overlay:hover {
+    transition: background-color 200ms ease-in;
+}
+.page-gallery .gallery-overlay.top-left {
+    left: 0;
+    top: 60px;
+}
+.page-gallery .gallery-overlay i {
+    padding: 14px 14px 0 14px;
+}
+.page-gallery .gallery-overlay .gallery-overlay-text {
+    padding: 22px 0;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+/**
+ * BLOCK FABRICS ELEMENT
+ * ('Elements/market/block-fabrics.php')
+ */
+.market .block-fabrics {
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+.market .block-fabrics a {
+    color: #6a6a6a;
+    text-decoration: none;
+}
+.market .block-fabrics h4 {
+    font-size: 12px;
+    height: 28px;
+    margin-bottom: 14px;
+}
+
+/**
+ * BLOCK PARTNERS ELEMENT
+ * ('Elements/market/block-partners.php')
+ */
+.block-partners {
+    padding-left: 0;
+    padding-right: 0;
+}
+.block-partners .thumbnail-container {
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.block-partners .thumbnail {
+    border: none;
+    border-radius: 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.block-partners .thumbnail img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/**
+ * BLOCK IMG AND TEXT
+ * ('Elements/market/block-img-and-text.php')
+ */
+.block-img-and-text .block-text {
+	padding: 30px;
+}
+.block-img-and-text img {
+	padding: 0 30px;
+	width: 100%;
+}
+.block-img-and-text .block-text {
+	min-height: 0;
+}
+
+/**
+ * TEXT WITH ACCENT ELEMENT
+ * ('Elements/market/text-with-accent/php')
+ */
+.block-design h2.text-accent {
+	font-family: 'Avenir LT Std 85 Heavy';
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.block-design .text-accent-img {
+	width: 600px;
+}
+
+/**
+ * BLOCK THUMBNAILS ELEMENT
+ * ('Elements/market/block-thumbnails.php')
+ */
+.block-thumbnails img {
+    width: 250px;
+    margin: 0 auto;
+}
+.block-thumbnails .row .nine-cols {
+    white-space: nowrap;
+}
+.block-thumbnails .first-layout,
+.block-thumbnails .second-layout {
+	margin-top: 80px;
+}
+
+/**
+ * Scrollable row styles on block thumbnails
+ */
+.row-scrollable {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.row-scrollable > [class*="col-xs"],
+.row-scrollable > a > [class*="col-xs"] {
+	float: none;
+	display: inline-block;
+	white-space: normal;
+	vertical-align: top;
+	width: 40%;
+ }
+
+ /**
+  * BLOCK THUMBNAILS TABS ELEMENT
+  * ('Elements/market/block-thumbnails-tabs.php')
+  */
+.block-thumbnails-tabs a {
+    font-family: 'Avenir LT Std 85 Heavy';
+}
+.block-thumbnails-tabs .nav {
+    margin-bottom: 16px;
+    margin-left: auto;
+	margin-right: auto;
+    margin-top: -24px;
+	max-width: 700px;
+	padding: 16px;
+}
+
+.block-thumbnails-tabs .nav-tabs li {
+    display: block;
+    float: none;
+    margin: 0 auto;
+	text-transform: uppercase;
+}
+.block-thumbnails-tabs .nav-tabs > li > a {
+	color: #fff;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    line-height: 26px;
+	letter-spacing: 1px;
+    opacity: 0.8;
+    padding-bottom: 6px;
+    padding-top: 6px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.block-thumbnails-tabs .nav-tabs > li.active > a {
+    border: 1px solid transparent;
+    color: #fff;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.nav-tabs > li.active > a,
+.block-thumbnails-tabs .nav > li > a:hover,
+.block-thumbnails-tabs .nav > li > a:active,
+.block-thumbnails-tabs .nav > li > a:focus {
+    background-color: transparent;
+}
+.block-thumbnails-tabs .nav > li.active span {
+    border-bottom: 1px solid #fff;
+	padding-bottom: 3px;
+}
+.block-thumbnails-tabs .nav-tabs {
+    border-bottom: none;
+    text-align: center;
+}
+.block-thumbnails-tabs .nav-tabs > li > a:hover {
+    border-color: transparent;
+}
+.block-thumbnails-tabs .block-thumbnails .first-layout,
+.block-thumbnails-tabs .block-thumbnails .second-layout {
+	margin-top: 16px;
+}
+
+/**
+ * TEXT TWO COLUMNS ELEMENT
+ * ('Elements/market/text-two-columns.php')
+ */
+.border-t-grey {
+	border-top: 1px solid #e9e9e9;
+}
+.text-two-columns .header {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+.text-two-columns .header h2,
+.text-two-columns .content h3 {
+	line-height: 1.4;
+}
+.text-two-columns .header h2 {
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.text-two-columns .content h3 {
+	margin-top: 7px;
+}
+.text-two-columns .content h3,
+.text-two-columns .content ul {
+	font-size: 14px;
+}
+.text-two-columns .content {
+	padding-top: 42px;
+	padding-bottom: 42px;
+}
+.text-two-columns ul {
+	font-size: 14px;
+}
+.text-two-columns .content ul {
+	line-height: 36px;
+	padding-left: 8px;
+	color: #6a6a6a;
+}
+
+/**
+ * SUNBRELLA CONTRACT STYLES
+ * ('Pages/contract')
+ */
+.contract.market h1,
+.contract.market h1 small,
+.contract.market h2 {
+	color: #252525;
+}
+
+/**
+ * QUOTE ELEMENT
+ * ('Elements/market/quote.php')
+ */
+.quote {
+	padding-top: 32px;
+}
+.quote p {
+	font-style: oblique;
+	text-align: center;
+}
+.quote p:first-of-type {
+	padding-top: 32px;
+}
+.quote p:not(:last-child) {
+	color: #252525;
+}
+
+/**
+* ICON AND TEXT ELEMENT
+* ('Element/market/icon-and-text.php')
+* BLOCK ICON AND TEXT ELEMENT
+* ('Element/market/block-icon-and-text.php')
+*/
+.icon-and-text,
+.block-icon-and-text {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.icon-and-text {
+	border: none;
+}
+.icon-and-text a:hover {
+	/* Fix for a text underline being aded to the img on hover*/
+	text-decoration: none;
+}
+.icon-and-text a > p:hover {
+	text-decoration: underline;
+}
+.block-icon-and-text .icon {
+	max-width: 58px;
+	height: auto;
+}
+
+/**
+* BLOCK TABS ELEMENT
+* ('Element/market/block-tabs')
+*/
+.block-tabs .nav.nav-tabs {
+	border-bottom: none;
+	font-family: 'Avenir LT Std 85 Heavy';
+	letter-spacing: 3px;
+}
+.block-tabs .nav.nav-tabs li {
+	display: block;
+	float: none;
+	text-transform: uppercase;
+}
+.block-tabs .nav.nav-tabs > li.active > a,
+.block-tabs .nav.nav-tabs > li a:focus  {
+	border: 1px solid transparent;
+	color: transparent;
+}
+.block-tabs > .nav.nav-tabs li.active > a,
+.block-tabs .nav.nav-tabs > li > a:hover,
+.block-tabs .nav.nav-tabs > li > a:active,
+.block-tabs .nav.nav-tabs > li > a:focus {
+	background-color: transparent;
+	border-color: transparent;
+}
+.block-tabs .nav.nav-tabs > li > a {
+    padding-left: 0;
+    padding-right: 0;
+}
+.block-tabs .nav.nav-tabs > li > a:hover {
+	border-color: transparent;
+}
+.block-tabs .nav.nav-tabs > li > a > span {
+    border-bottom: 3px solid transparent;
+	color: #acacac;
+    padding-bottom: 14px;
+}
+.block-tabs .nav.nav-tabs > li.active span.accent-color {
+    border-color: #0080bc;
+    color: #0080bc;
+    -webkit-transition: border-color 400ms ease, color 400ms ease;
+    -moz-transition: border-color 400ms ease, color 400ms ease;
+    -o-transition: border-color 400ms ease, color 400ms ease;
+    transition: border-color 400ms ease, color 400ms ease;
+}
+
+/**
+* BLOCK INSTRUCTIONS ELEMENT
+* ('Element/market/block-instructions')
+*/
+.block-instructions {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.block-instructions .links {
+   font-size: 18px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+/*.block-instructions a {
+	font-size: 12px;
+	font-weight: bold;
+}*/
+.block-instructions ol {
+	padding-left: 8px;
+	margin-left: 8px;
+}
+.block-instructions ol > li {
+	color: #6a6a6a;
+   font-size: 18px;
+}
+.block-instructions p {
+	line-height: 1.42857143;
+}
+
+/* tablets (sm) */
+@media (min-width: 768px) {
+    /**
+	 * BASE STYLES
+	 */
+    .market h1 {
+        font-size: 32px;
+        margin-left: 58px;
+        margin-right: 32px;
+        margin-top: 10px;
+    }
+
+	/**
+	 * BLOCK HERO ELEMENT
+	 * ('Elements/market/block-hero.php')
+	 */
+    .market .min-height-page-hero {
+        height: 722px;
+    }
+    .market .page-hero {
+        left: 0;
+        position: absolute;
+        top: 0;
+    }
+    .market .panel-white {
+        -webkit-box-shadow: -2px 0px 14px 0px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: -2px 0px 14px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: -2px 0px 14px 0px rgba(0, 0, 0, 0.35);
+        height: 630px;
+        padding-bottom: 0;
+        padding-top: 0;
+        top: 64px;
+    }
+    .market .nav-pills li.burger {
+        display: block;
+    }
+    .market .panel-white .breadcrumb {
+        margin: 125px 0 0 58px;
+    }
+    .market .panel-white .nav.nav-pills {
+        margin-right: 0;
+        margin-top: 66px;
+    }
+    .market .panel-white .arrow-long-down {
+		top: 425px;
+		right: 75px;
+    }
+	.market .panel-white img {
+		padding-left: 45px;
+	}
+
+	/**
+	 * COLLECTIONS SPECIFIC RULES
+	 */
+	.collections.market .panel-white {
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+	.collections.market .panel-white .breadcrumb {
+		margin: 125px 0 0 150px;
+	}
+
+	.collections.market .panel-white h1 {
+		margin-left: 150px;
+	}
+
+
+	/**
+     * BLOCK HERO LEFT ELEMENT
+     * ('Elements/market/block-hero-left.php')
+     */
+	.market .block-hero-left {
+		padding-bottom: 100px;
+	}
+	.market .block-hero-left .hero-content {
+		margin-top: 100px;
+		margin-left: 73px;
+	}
+	.market .block-hero-left .logo {
+		margin: 130px 0 0 73px;
+	}
+   .market .block-hero-left .nav-pills li.burger {
+      position: relative;
+      right: auto;
+      top: auto;
+   }
+	.market .block-hero-left .nav.nav-pills {
+		margin-top: 130px;
+	}
+
+	/**
+	 * MENU STICKY ELEMENT
+	 * ('Elements/market/menu-sticky.php')
+	 */
+    .market .menu-sticky-wrapper {
+        margin-top: 40px;
+    }
+    .market .menu-sticky {
+        height: 69px;
+    }
+    .market .menu-sticky .grey-circle-left {
+        /*margin-left: 24px;*/
+        margin-top: 20px;
+        padding-bottom: 21px;
+        padding-left: 24px;
+        padding-right: 16px;
+        width: 68px;
+    }
+    .market .menu-sticky .logo {
+        left: 68px;
+        padding: 21px 14px 24px 0;
+        width: 110px;
+    }
+    .market .menu-sticky a.burger {
+        padding-right: 8px;
+        right: 0;
+    }
+    .market .menu-sticky ul {
+        margin: 6px 0 0 0;
+        padding: 0 90px 15px 180px;
+    }
+    .market .menu-sticky ul li {
+        margin-right: 50px;
+    }
+
+	/**
+	* LEARN MORE STYLES
+	*/
+	.market .learn-more {
+		margin-left: 48px;
+		margin-top: -450px;
+		width: 300px;
+	}
+
+	/**
+	 * BLOCK DESIGN ELEMENT
+	 * ('Elements/market/block-design.php')
+	 *
+	 * HEADING AND COLUMNS
+	 * ('Elements/market/heading-and-columns.php')
+	 *
+	 * MASONRY TEXT
+	 * ('Elements/market/masonry-text.php')
+	 *
+	 * TEXT WITH ACCENT ELEMENT
+	 * ('Elements/market/text-with-accent/php')
+	 */
+    .market .block-design,
+    .market .heading-and-columns,
+    .market .masonry-text,
+	.block-design .text-accent-img {
+		padding-bottom: 32px;
+		padding-top: 32px;
+    }
+    .market .masonry-text .left-column {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .market .masonry-text .center-column {
+        padding-left: 15px;
+    }
+
+	/**
+	 * BLOCK FEATURES ELEMENT
+	 * ('Elements/market/block-features.php')
+	 */
+
+	.market .block-features {
+		padding-bottom: 32px;
+		padding-top: 32px;
+	}
+	.block-features .content {
+		padding: 64px 0;
+	}
+
+	/**
+	 * GALLERY ELEMENT
+	 * ('Elements/market/gallery.php')
+	 */
+	.page-gallery {
+		float: right;
+	}
+
+	/**
+	 * BLOCK IMG AND TEXT
+	 * ('Elements/market/block-img-and-text.php')
+	 */
+	.block-img-and-text .gutter-0 > [class^="col-"] .block-text {
+		border-right: 1px solid #f1f1f1;
+	}
+	.block-img-and-text .gutter-0 > [class^="col-"]:last-child .block-text {
+		border-right: 0;
+	}
+	.block-img-and-text .block-text {
+		min-height: 800px;
+	}
+	.block-img-and-text img {
+        padding: 0;
+		width: 100%;
+	}
+	.block-img-and-text .block-text {
+		padding: 64px;
+	}
+
+	/**
+	 * BLOCK PARTNERS ELEMENT
+	 * ('Elements/market/block-partners.php')
+	 */
+	.block-partners {
+		padding-left: 64px;
+		padding-right: 32px;
+	}
+
+    /**
+	 * GALLERY ELEMENT
+	 * ('Elements/market/gallery.php')
+	 */
+    .page-gallery {
+        float: right;
+    }
+
+    /**
+	 * BLOCK PARTNERS ELEMENT
+	 * ('Elements/market/block-partners.php')
+	 */
+    .block-partners {
+        padding-left: 64px;
+        padding-right: 32px;
+    }
+
+    /**
+	 * BLOCK FABRICS ELEMENT
+	 * ('Elements/market/block-fabrics.php')
+	 */
+    .market .block-fabrics {
+    	padding-bottom: 32px;
+		padding-top: 32px;
+    }
+    .market .block-fabrics h4 {
+        font-size: 20px;
+        margin-bottom: 16px;
+        min-height: 100px;
+    }
+
+	/**
+	* BLOCK THUMBNAILS TABS ELEMENT
+	* ('Elements/market/block-thumbnails-tabs.php')
+	*/
+    .block-thumbnails-tabs .nav {
+        margin-bottom: 50px;
+    	margin-top: -50px;
+        padding: 25px;
+    }
+	.block-thumbnails-tabs .nav-tabs li {
+		display: inline-block;
+	}
+    .block-thumbnails-tabs .nav-tabs > li > a {
+        line-height: 1.42857143;
+    	letter-spacing: 3px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .block-thumbnails-tabs .nav > li.active span {
+        border-bottom: 3px solid #fff;
+    	padding-bottom: 8px;
+    }
+    .block-thumbnails-tabs .block-thumbnails .first-layout,
+    .block-thumbnails-tabs .block-thumbnails .second-layout {
+    	margin-top: 80px;
+    }
+
+	/**
+	 * BLOCK THUMBNAILS
+	 * ('Elements/market/block-thumbnails.php')
+	 */
+	.block-thumbnails .content-padding {
+		padding-top: 64px;
+	}
+
+	.block-thumbnails .first-layout .offsets [class^=col] {
+		float: right;
+	}
+
+	.block-thumbnails .first-layout,
+	.block-thumbnails .second-layout {
+	   border: 2px solid #e7dae3;
+	}
+
+	.block-thumbnails .first-layout {
+		margin-right: 40px;
+		padding: 85px 0 85px 85px;
+	}
+
+	.block-thumbnails .first-layout .offsets {
+		margin: 0 -40px 0 0;
+	}
+
+	.block-thumbnails .second-layout {
+		padding: 85px 85px 85px 0;
+		margin-left: 150px;
+	}
+
+	.block-thumbnails .second-layout .offsets {
+		margin-left: -150px;
+	}
+
+	/**
+	* TEXT TWO COLUMNS ELEMENT
+	* ('Elements/market/text-two-columns.php')
+	*/
+	.text-two-columns .header {
+		padding-top: 80px;
+		padding-bottom: 40px;
+	}
+	.text-two-columns .content {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+   .text-two-columns .header h2 {
+   	font-size: 32px;
+   }
+}
+
+/* desktop (md) */
+@media (min-width: 992px) {
+	/**
+	 * BASE STYLES
+	 */
+    .market h1 {
+        font-size: 48px;
+        margin-left: 88px;
+        margin-top: 20px;
+    }
+    .market h2 {
+        font-size: 45px;
+    }
+    .market h3 {
+        font-size: 45px;
+    }
+    .market h4 {
+        font-size: 24px;
+    }
+    .market p {
+        font-size: 18px;
+    }
+    .market [class*='border-bottom'] {
+        border-bottom: 0;
+        border-right: 1px solid #d1d1d1;
+    }
+
+    /**
+     * LARGE BLOCK
+     */
+    .block-large {
+        padding: 70px 20px;
+    }
+
+	/**
+	 * BLOCK HERO ELEMENT
+	 * ('Elements/market/block-hero.php')
+	 */
+    .market .min-height-page-hero {
+        height: 988px;
+        /* TODO: make this smart */
+    }
+    .market .panel-white {
+        height: 800px;
+    }
+    .market .panel-white .breadcrumb {
+        margin: 155px 0 0 88px;
+    }
+    .market .panel-white .arrow-long-down {
+		top: 600px;
+    }
+	.market .panel-white img {
+		padding-left: 75px;
+	}
+
+	/**
+	* LEARN MORE STYLES
+	*/
+	.market .learn-more {
+		margin-left: 88px;
+	}
+
+	/**
+	 * BLOCK DESIGN ELEMENT
+	 * ('Elements/market/block-design.php')
+	 *
+	 * HEADING AND COLUMNS
+	 * ('Elements/market/heading-and-columns.php')
+	 *
+	 * MASONRY TEXT
+	 * ('Elements/market/masonry-text.php')
+	 *
+	 * TEXT WITH ACCENT ELEMENT
+	 * ('Elements/market/text-with-accent/php')
+	 */
+    .market .block-design,
+    .market .heading-and-columns,
+    .market .masonry-text,
+	.block-design .text-accent-img {
+		padding-bottom: 64px;
+		padding-top: 64px;
+    }
+    .market .masonry-text .left-center-column {
+        padding-right: 0;
+    }
+    .market .masonry-text .left-column {
+        padding-left: 0;
+        padding-right: 24px;
+    }
+    .market .masonry-text .center-column {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .market .masonry-text .right-column {
+        padding-left: 24px;
+    }
+    .market .masonry-text .masonry-md-b-48 {
+        margin-bottom: 48px;
+    }
+    .market .masonry-text .masonry-md-b-64 {
+        margin-bottom: 64px;
+    }
+    .market .masonry-text .masonry-md-t-48 {
+        margin-top: 48px;
+    }
+    .market .masonry-text .masonry-md-t-64 {
+        margin-top: 64px;
+    }
+    .market .masonry-text .masonry-md-t-128 {
+        margin-top: 128px;
+    }
+    .market .masonry-text .masonry-md-t--64 {
+        margin-top: -64px;
+    }
+
+	/**
+	* VIDEO PREVIEW ELEMENT
+	* ('Element/market/video-preview.php')
+	*/
+	.video-preview .video-preview-block .video-preview-text {
+		font-size: 18px;
+	}
+	/**
+	* BLOCK IMG AND TEXT
+	*('Elements/market/block-img-and-text.php')
+	*/
+	.block-img-and-text .block-text {
+		min-height: 600px;
+	}
+
+	/**
+	 * BLOCK FABRICS ELEMENT
+	 * ('Elements/market/block-fabrics.php')
+	 */
+	.market .block-fabrics {
+		padding-bottom: 64px;
+		padding-top: 64px;
+	}
+    .market .block-fabrics h4 {
+        font-size: 16px;
+        margin-bottom: 36px;
+    }
+
+	/**
+	* BLOCK THUMBNAILS ELEMENT
+	* ('Elements/market/block-thumbnails-tabs.php')
+	*/
+	.block-thumbnails .first-layout {
+		margin-right: 35px;
+	 }
+
+	.block-thumbnails .first-layout .offsets {
+		margin: 0 -35px 0 0;
+	 }
+
+	 .block-thumbnails .second-layout {
+ 		margin-left: 135px;
+ 	}
+
+ 	.block-thumbnails .second-layout .offsets {
+ 		margin-left: -135px;
+ 	}
+
+	/**
+	* BLOCK THUMBNAILS TABS ELEMENT
+	* ('Elements/market/block-thumbnails-tabs.php')
+	*/
+	.block-thumbnails-tabs .nav {
+		margin-top: -75px;
+		margin-bottom: 75px;
+		padding: 50px;
+	}
+
+	/**
+	* TEXT TWO COLUMNS ELEMENT
+	* ('Elements/market/text-two-columns.php')
+	*/
+	.text-two-columns .content h3,
+	.text-two-columns .content ul {
+		font-size: 18px;
+	}
+
+	/**
+	* QUOTE ELEMENT
+	* ('Elements/market/quote.php')
+	*/
+	.quote p:not(:last-of-type) {
+		font-size: 28px;
+	}
+
+	/**
+	* BLOCK INSTRUCTIONS ELEMENT
+	* ('Element/market/block-instructions')
+	*/
+	.block-instructions .links {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+	.block-instructions ol {
+		padding-left: 12px;
+		margin-left: 12px;
+	}
+	/*.block-instructions ol > li,
+	.block-instructions a {
+		font-size: 22px;
+	}*/
+	/*.block-instructions p {
+		font-size: 16px;
+	}*/
+
+	/**
+	* BLOCK TABS ELEMENT
+	* ('Element/market/block-tabs')
+	*/
+	.block-tabs .nav.nav-tabs li {
+		border-bottom: 3px solid rgba(141,68,117, 0.2);
+		display: inline-block;
+		float: left;
+		font-size: 10px;
+	}
+    .block-tabs .nav.nav-tabs > li > a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* large devices (lg) */
+@media (min-width: 1200px) {
+    /**
+	 * BASE STYLES
+	 */
+    .market h1 {
+        font-size: 54px;
+        margin-top: 40px;
+    }
+
+	.market .paragraphs-left {
+		position: absolute;
+		top: 300px;
+		left: 30px;
+	}
+
+	.market .paragraphs-left h2,
+	.market .paragraphs-left p {
+		color: #fff;
+	}
+
+	/**
+	* LEARN MORE STYLES
+	*/
+	.market .learn-more {
+		margin-top: -240px;
+	}
+
+	/**
+	* BLOCK IMG AND TEXT
+	*('Elements/market/block-img-and-text.php')
+	*/
+	.block-img-and-text .block-text {
+		min-height: 500px;
+	}
+
+	/**
+	* TEXT WITH ACCENT ELEMENT
+	* ('Elements/market/text-with-accent/php')
+	*/
+	.block-design .text-accent-img {
+		padding-top: 128px;
+		padding-bottom: 128px;
+	}
+
+	/**
+	* BLOCK THUMBNAILS ELEMENT
+	* ('Elements/market/block-thumbnails-tabs.php')
+	*/
+	.block-thumbnails .first-layout {
+		margin-right: 45px;
+	}
+
+	.block-thumbnails .first-layout .offsets {
+		margin: 0 -45px 0 0;
+	}
+
+	.block-thumbnails .second-layout {
+		margin-left: 170px;
+	}
+
+	.block-thumbnails .second-layout .offsets {
+		margin-left: -170px;
+	}
+}
+
+@media (min-width: 1300px) {
+    /**
+	 * CONTAINERS AND SPACING
+	 */
+    .container {
+        width: 1270px;
+    }
+
+	/**
+	* BLOCK THUMBNAILS ELEMENT
+	* ('Elements/market/block-thumbnails-tabs.php')
+	*/
+	.block-thumbnails .first-layout {
+		margin-right: 55px;
+	}
+
+	.block-thumbnails .first-layout .offsets {
+		margin: 0 -55px 0 0;
+	}
+
+	.block-thumbnails .second-layout {
+		margin-left: 185px;
+	}
+
+	.block-thumbnails .second-layout .offsets {
+		margin-left: -185px;
+	}
+}
+
+@media (min-width: 1400px) {
+    /**
+	 * CONTAINERS AND SPACING
+	 */
+    .container {
+        width: 1370px;
+    }
+
+	/**
+	 * BLOCK HERO ELEMENT
+	 * ('Elements/market/block-hero.php')
+	 */
+    .market .min-height-page-hero {
+        height: 1028px;
+        /* TODO: make this smart */
+    }
+    .market .panel-white .arrow-long-down {
+		right: 125px;
+    }
+
+	.block-thumbnails .second-layout {
+		margin-left: 200px;
+	}
+
+	.block-thumbnails .second-layout .offsets {
+		margin-left: -200px;
+	}
+
+    /**
+	 * BLOCK FABRICS ELEMENT
+	 * ('Elements/market/block-fabrics.php')
+	 */
+    .market .block-fabrics h4 {
+        font-size: 18px;
+        min-height: 80px;
+    }
+
+	/**
+	* BLOCK TABS ELEMENT
+	* ('Element/market/block-tabs')
+	*/
+	.block-tabs .nav.nav-tabs > li > a > span {
+		font-size: 14px;
+	}
+}

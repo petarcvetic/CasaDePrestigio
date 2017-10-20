@@ -1,0 +1,278 @@
+/* mobile (xs) */
+
+/* logo */
+.home .logo {
+    margin: 16px 0 0 10px;
+    width: 200px;
+}
+
+
+
+
+.home .design-performance {
+    color: #fff;
+    float: left;
+    /*font-family: 'Avenir LT Std 45 Book';*/
+    font-size: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+@media (min-width: 355px) {
+    .home .design-performance {
+        margin-top: 35px;
+    }
+}
+@media (min-width: 768px) {
+    .home .design-performance {
+        font-size: 14px;
+        margin-top: 31px;
+    }
+}
+@media (min-width: 992px) {
+    .home .design-performance {
+        margin-top: 50px;
+    }
+}
+
+/* desktop (md) */
+@media (min-width: 992px) {
+    .home .logo {
+        margin-left: 10px;
+        margin-top: 36px;
+    }
+}
+
+/* nav block wrappers */
+.nav-block {
+    /*font-family: 'Avenir LT Std 45 Book';*/
+    height: 670px;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav-block nav > .nav {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+/* section and links */
+.nav-block .nav > li > a {
+    text-align: right;
+}
+
+.nav-block .nav > .active > a,
+.nav-block .nav > li > a:hover,
+.nav-block .nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+    border-right-color: #fff;
+    text-decoration: none;
+}
+
+.nav-block .nav > li > a.section-link {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 9px 0;
+    text-align: right;
+}
+
+.nav-block .nav > li > a.section-link,
+.nav-block .nav .nav > li > a {
+    padding-left: 0;
+    padding-right: 16px;
+}
+
+.nav-block > nav > .nav > li.active > a.section-link {
+    margin-bottom: 10px;
+}
+
+.nav-block .nav .nav > li a.active {
+    margin-right: 16px;
+    padding-right: 30px;
+}
+
+.nav-block .nav .nav > li > a {
+    font-size: 22px;
+    line-height: 22px;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-transform: uppercase;
+}
+
+.nav-block .nav .nav > li > a .btn-go {
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 22px;
+}
+
+.nav-block .nav .nav > li.off-1 a {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.nav-block .nav .nav > li.off-1 a .btn-go {
+    width: 16px;
+}
+
+.nav-block .nav .nav > li.off-2 a {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.nav-block .nav .nav > li.off-2 a .btn-go {
+    width: 12px;
+}
+
+.nav-block .nav .nav > li.off-3 a,
+.nav-block .nav .nav > li.off-4 a {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.nav-block .nav .nav > li.off-3 a .btn-go,
+.nav-block .nav .nav > li.off-4 a .btn-go {
+    width: 10px;
+}
+
+.nav-stacked > li + li {
+    margin-top: 0;
+}
+
+.nav-block .nav .nav > li.off-1 {
+    opacity: 0.6;
+}
+
+.nav-block .nav .nav > li.off-2 {
+    opacity: 0.4;
+}
+
+.nav-block .nav .nav > li.off-3,
+.nav-block .nav .nav > li.off-4 {
+    opacity: 0.2;
+}
+
+.nav-block .nav .nav > li {
+    transition: opacity 400ms ease;
+}
+
+.nav-block .nav ul.nav {
+    display: none;
+}
+
+.nav-block .nav > .active > ul.nav {
+    display: block;
+}
+
+.nav-block > nav > .nav > li {
+    height: 50px;
+}
+
+/*PETAR (heihgt:360px;)-----------------------------------------------------------------------------------------------------------------*/
+.nav-block > nav > .nav > li.active {
+    height: 200px;
+}
+
+.nav-block > nav > .nav > li.autoHeight {
+    height: auto;
+}
+.nav-block > nav > .nav > li.autoHeight ul li.off-3,
+.nav-block > nav > .nav > li.autoHeight ul li.off-4 {
+    display: none;
+}
+
+nav > .nav-stacked > li:nth-child(3) {
+    overflow-y: hidden;
+}
+
+.nav-block .nav .nav > li {
+    padding: 3px 0;
+}
+
+.nav-block .nav .nav > li,
+.nav-block .nav .nav > li > a {
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+/* desktop (xs-sm) */
+@media (min-width: 458px) {
+    .nav-block .nav .nav > li a:hover,
+    .nav-block .nav .nav > li a.active {
+        margin-right: 16px;
+        padding-right: 30px;
+    }
+    .nav-block .nav .nav > li:hover {
+        opacity: 1;
+    }
+}
+
+/* desktop (md) */
+@media (min-width: 992px) {
+
+    .nav-block .nav > li > a.section-link,
+    .nav-block .nav .nav > li > a {
+        padding-right: 36px;
+    }
+
+    .nav-block .nav .nav > li a:hover {
+        margin-right: 36px;
+        padding-right: 36px;
+    }
+
+    .nav-block .nav .nav > li > a {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .nav-block .nav .nav > li > a .btn-go {
+        top: 0;
+        width: 28px;
+    }
+
+    .nav-block .nav .nav > li.off-1 a {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .nav-block .nav .nav > li.off-1 a .btn-go {
+        width: 24px;
+    }
+
+    .nav-block .nav .nav > li.off-2 a {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .nav-block .nav .nav > li.off-2 a .btn-go {
+        width: 18px;
+    }
+
+    .nav-block .nav .nav > li.off-3 a {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .nav-block .nav .nav > li.off-3 a .btn-go {
+        width: 12px;
+    }
+
+    .nav-block .nav .nav > li.off-4 a {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .nav-block .nav .nav > li.off-4 a .btn-go {
+        width: 10px;
+    }
+
+}
+
+/* large devices (lg) */
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,388 @@
+/* color all the things */
+
+/**
+ * defaults
+ */
+.nav-block,
+.nav-block nav > ul > li.off-1,
+.nav-block nav > ul > li.off-2 {
+  -webkit-transition: background-color 400ms ease-in;
+  -moz-transition: background-color 400ms ease-in;
+  -o-transition: background-color 400ms ease-in;
+  transition: background-color 400ms ease-in;
+}
+.nav-block,
+.nav-utility {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.nav-block nav > ul > li.off-1,
+.nav-block nav > ul > li.off-2 {
+  background-color: transparent;
+}
+.nav.nav-pills > li > a,
+.nav.nav-pills > li > a:focus,
+.nav.nav-pills > li > a:hover {
+  color: #fff;
+}
+#hide-utility:hover {
+  background-color: #fff;
+}
+
+/**
+ * textiles
+ */
+
+/* .textiles-upholstery */
+.nav-block.textiles-upholstery {
+  background-color: rgba(48,114,126, 0.85);
+}
+.nav-block.textiles-upholstery nav > ul > li.off-1 {
+  background-color: rgba(48,114,126, 0.5);
+}
+.nav-block.textiles-upholstery nav > ul > li.off-2 {
+  background-color: rgba(48,114,126, 0.9);
+}
+.nav-utility.textiles-upholstery {
+  background-color: rgba(48,114,126, 1);
+}
+.nav.nav-pills.textiles-upholstery > li > a {
+  color: #fff;
+}
+.nav.nav-pills.textiles-upholstery > li > a:focus,
+.nav.nav-pills.textiles-upholstery > li > a:hover,
+#hide-utility.textiles-upholstery {
+  color: #30727e;
+}
+
+/* .textiles-shade */
+.nav-block.textiles-shade {
+  background-color: rgba(237,128,0, 0.85);
+}
+.nav-block.textiles-shade nav > ul > li.off-1 {
+  background-color: rgba(237,128,0, 0.5);
+}
+.nav-block.textiles-shade nav > ul > li.off-2 {
+  background-color: rgba(237,128,0, 0.9);
+}
+.nav-utility.textiles-shade {
+  background-color: rgba(237,128,0, 1);
+}
+.nav.nav-pills.textiles-shade > li > a:focus,
+.nav.nav-pills.textiles-shade > li > a:hover,
+#hide-utility.textiles-shade {
+  color: #ed8000;
+}
+
+/* .textiles-marine */
+.nav-block.textiles-marine {
+  background-color: rgba(9,45,89, 0.85);
+}
+.nav-block.textiles-marine nav > ul > li.off-1 {
+  background-color: rgba(9,45,89, 0.5);
+}
+.nav-block.textiles-marine nav > ul > li.off-2 {
+  background-color: rgba(9,45,89, 0.9);
+}
+.nav-utility.textiles-marine {
+  background-color: rgba(9,45,89, 1);
+}
+.nav.nav-pills.textiles-marine > li > a:focus,
+.nav.nav-pills.textiles-marine > li > a:hover,
+#hide-utility.textiles-marine {
+  color: #092d59;
+}
+
+/**
+ * collaborations
+ */
+
+/* .collaborations-designers */
+.nav-block.collaborations-designers {
+  background-color: rgba(72,74,82, 0.85);
+}
+.nav-block.collaborations-designers nav > ul > li.off-1 {
+  background-color: rgba(72,74,82, 0.5);
+}
+.nav-block.collaborations-designers nav > ul > li.off-2 {
+  background-color: rgba(72,74,82, 0.9);
+}
+.nav-utility.collaborations-designers {
+  background-color: rgba(72,74,82, 1);
+}
+.nav.nav-pills.collaborations-designers > li > a:focus,
+.nav.nav-pills.collaborations-designers > li > a:hover,
+#hide-utility.collaborations-designers {
+  color: #484a52;
+}
+
+/* joe ruggiero (#484A52) */
+.fp-viewing-collaborations-joe-ruggiero .nav-block {
+  background-color: rgba(72,74,82, 0.85);
+}
+/* richard frinier (#B2AEA3) */
+.fp-viewing-collaborations-richard-frinier .nav-block {
+  background-color: rgba(178,174,163, 0.85);
+}
+.fp-viewing-collaborations-richard-frinier .nav-utility {
+  background-color: rgba(178,174,163, 1);
+}
+.fp-viewing-collaborations-richard-frinier .nav.nav-pills > li > a:focus,
+.fp-viewing-collaborations-richard-frinier .nav.nav-pills > li > a:hover,
+.fp-viewing-collaborations-richard-frinier #hide-utility {
+  color: #b2aea3;
+}
+
+/* .collaborations-sunbrella-products */
+.nav-block.collaborations-sunbrella-products {
+  background-color: rgba(199,35,56, 0.85);
+}
+.nav-block.collaborations-sunbrella-products nav > ul > li.off-1 {
+  background-color: rgba(199,35,56, 0.5);
+}
+.nav-block.collaborations-sunbrella-products nav > ul > li.off-2 {
+  background-color: rgba(199,35,56, 0.9);
+}
+.nav-utility.collaborations-sunbrella-products {
+  background-color: rgba(199,35,56, 1);
+}
+.nav.nav-pills.collaborations-sunbrella-products > li > a:focus,
+.nav.nav-pills.collaborations-sunbrella-products > li > a:hover,
+#hide-utility.collaborations-sunbrella-products {
+  color: #c72338;
+}
+
+/* a and e (#c72338) */
+.fp-viewing-collaborations-a-and-e .nav-block {
+  background-color: rgba(199,35,56, 0.85);
+}
+.fp-viewing-collaborations-a-and-e .nav-utility {
+  background-color: rgba(199,35,56, 1);
+}
+.fp-viewing-collaborations-a-and-e .nav.nav-pills > li > a:focus,
+.fp-viewing-collaborations-a-and-e .nav.nav-pills > li > a:hover,
+.fp-viewing-collaborations-a-and-e #hide-utility {
+  color: #c72338;
+}
+/* ardwyn (#24463a) */
+.fp-viewing-collaborations-ardwyn .nav-block {
+  background-color: rgba(36,70,58, 0.85);
+}
+.fp-viewing-collaborations-ardwyn .nav-utility {
+  background-color: rgba(36,70,58, 1);
+}
+.fp-viewing-collaborations-ardwyn .nav.nav-pills > li > a:focus,
+.fp-viewing-collaborations-ardwyn .nav.nav-pills > li > a:hover,
+.fp-viewing-collaborations-ardwyn #hide-utility {
+  color: #24463a;
+}
+/* colonial mills (#124272) */
+.fp-viewing-collaborations-colonial-mills .nav-block {
+  background-color: rgba(18,66,114, 0.85);
+}
+.fp-viewing-collaborations-colonial-mills .nav-utility {
+  background-color: rgba(18,66,114, 1);
+}
+.fp-viewing-collaborations-colonial-mills .nav.nav-pills > li > a:focus,
+.fp-viewing-collaborations-colonial-mills .nav.nav-pills > li > a:hover,
+.fp-viewing-collaborations-colonial-mills #hide-utility {
+  color: #124272;
+}
+/* dransfield and ross (#91768c) */
+.fp-viewing-collaborations-dransfield-and-ross .nav-block {
+  background-color: rgba(145,118,140, 0.85);
+}
+.fp-viewing-collaborations-dransfield-and-ross .nav-utility {
+  background-color: rgba(145,118,140, 1);
+}
+.fp-viewing-collaborations-dransfield-and-ross .nav.nav-pills > li > a:focus,
+.fp-viewing-collaborations-dransfield-and-ross .nav.nav-pills > li > a:hover,
+.fp-viewing-collaborations-dransfield-and-ross #hide-utility {
+  color: #91768c;
+}
+/* textillery (#407d88) */
+.fp-viewing-collaborations-textillery .nav-block {
+  background-color: rgba(64,125,136, 0.85);
+}
+.fp-viewing-collaborations-textillery .nav-utility {
+  background-color: rgba(64,125,136, 1);
+}
+.fp-viewing-collaborations-textillery .nav.nav-pills > li > a:focus,
+.fp-viewing-collaborations-textillery .nav.nav-pills > li > a:hover,
+.fp-viewing-collaborations-textillery #hide-utility {
+  color: #407d88;
+}
+
+/**
+ * experiences
+ */
+
+/* .experiences-uncharted */
+.nav-block.experiences-uncharted-waters {
+  background-color: rgba(29,47,65, 0.85);
+}
+.nav-block.experiences-uncharted-waters nav > ul > li.off-1 {
+  background-color: rgba(29,47,65, 0.5);
+}
+.nav-block.experiences-uncharted-waters nav > ul > li.off-2 {
+  background-color: rgba(29,47,65, 0.9);
+}
+.nav-utility.experiences-uncharted-waters {
+  background-color: rgba(29,47,65, 1);
+}
+.nav.nav-pills.experiences-uncharted-waters > li > a:focus,
+.nav.nav-pills.experiences-uncharted-waters > li > a:hover,
+#hide-utility.experiences-uncharted-waters {
+  color: #1d2f41;
+}
+
+/* .experiences-vollis-simpson */
+.nav-block.experiences-vollis-simpson {
+  background-color: rgba(219,187,141, 0.85);
+}
+.nav-block.experiences-vollis-simpson nav > ul > li.off-1 {
+  background-color: rgba(219,187,141, 0.5);
+}
+.nav-block.experiences-vollis-simpson nav > ul > li.off-2 {
+  background-color: rgba(219,187,141, 0.9);
+}
+.nav-utility.experiences-vollis-simpson {
+  background-color: rgba(219,187,141, 1);
+}
+.nav.nav-pills.experiences-vollis-simpson > li > a:focus,
+.nav.nav-pills.experiences-vollis-simpson > li > a:hover,
+#hide-utility.experiences-vollis-simpson {
+  color: #dbbb8d;
+}
+
+/* .experiences-sunbrella-canopy */
+.nav-block.experiences-sunbrella-canopy {
+  background-color: rgba(154,10,34, 0.85);
+}
+.nav-block.experiences-sunbrella-canopy nav > ul > li.off-1 {
+  background-color: rgba(154,10,34, 0.5);
+}
+.nav-block.experiences-sunbrella-canopy nav > ul > li.off-2 {
+  background-color: rgba(154,10,34, 0.9);
+}
+.nav-utility.experiences-sunbrella-canopy {
+  background-color: rgba(154,10,34, 1);
+}
+.nav.nav-pills.experiences-sunbrella-canopy > li > a:focus,
+.nav.nav-pills.experiences-sunbrella-canopy > li > a:hover,
+#hide-utility.experiences-sunbrella-canopy {
+  color: #9a0a22;
+}
+
+/* .experiences-future-of-shade */
+.nav-block.experiences-future-of-shade {
+  background-color: rgba(101,111,60, 0.85);
+}
+.nav-block.experiences-future-of-shade nav > ul > li.off-1 {
+  background-color: rgba(101,111,60, 0.5);
+}
+.nav-block.experiences-future-of-shade nav > ul > li.off-2 {
+  background-color: rgba(101,111,60, 0.9);
+}
+.nav-utility.experiences-future-of-shade {
+  background-color: rgba(101,111,60, 1);
+}
+.nav.nav-pills.experiences-future-of-shade > li > a:focus,
+.nav.nav-pills.experiences-future-of-shade > li > a:hover,
+#hide-utility.experiences-future-of-shade {
+  color: #656f3c;
+}
+
+/* .experiences-sheila-hicks */
+.nav-block.experiences-sheila-hicks {
+  background-color: rgba(40,97,152, 0.85);
+}
+.nav-block.experiences-sheila-hicks nav > ul > li.off-1 {
+  background-color: rgba(40,97,152, 0.5);
+}
+.nav-block.experiences-sheila-hicks nav > ul > li.off-2 {
+  background-color: rgba(40,97,152, 0.9);
+}
+.nav-utility.experiences-sheila-hicks {
+  background-color: rgba(40,97,152, 1);
+}
+.nav.nav-pills.experiences-sheila-hicks > li > a:focus,
+.nav.nav-pills.experiences-sheila-hicks > li > a:hover,
+#hide-utility.experiences-sheila-hicks {
+  color: #286198;
+}
+
+/* .experiences-perspective */
+.nav-block.experiences-perspective {
+  background-color: rgba(147,100,135, 0.85);
+}
+.nav-block.experiences-perspective nav > ul > li.off-1 {
+  background-color: rgba(147,100,135, 0.5);
+}
+.nav-block.experiences-perspective nav > ul > li.off-2 {
+  background-color: rgba(147,100,135, 0.9);
+}
+.nav-utility.experiences-perspective {
+  background-color: rgba(147,100,135, 1);
+}
+.nav.nav-pills.experiences-perspective > li > a:focus,
+.nav.nav-pills.experiences-perspective > li > a:hover,
+#hide-utility.experiences-perspective {
+  color: #936487;
+}
+
+/* .experiences-rossana-orlandi */
+.nav-block.experiences-rossana-orlandi {
+  background-color: rgba(119,159,91, 0.85);
+}
+.nav-block.experiences-rossana-orlandi nav > ul > li.off-1 {
+  background-color: rgba(119,159,91, 0.5);
+}
+.nav-block.experiences-rossana-orlandi nav > ul > li.off-2 {
+  background-color: rgba(119,159,91, 0.9);
+}
+.nav-utility.experiences-rossana-orlandi {
+  background-color: rgba(119,159,91, 1);
+}
+.nav.nav-pills.experiences-rossana-orlandi > li > a:focus,
+.nav.nav-pills.experiences-rossana-orlandi > li > a:hover,
+#hide-utility.experiences-rossana-orlandi {
+  color: #779f5b;
+}
+
+/* .experiences-brooklyn-museum */
+.nav-block.experiences-brooklyn-museum {
+  background-color: rgba(159,62,62, 0.85);
+}
+.nav-block.experiences-brooklyn-museum nav > ul > li.off-1 {
+  background-color: rgba(159,62,62, 0.5);
+}
+.nav-block.experiences-brooklyn-museum nav > ul > li.off-2 {
+  background-color: rgba(159,62,62, 0.9);
+}
+.nav-utility.experiences-brooklyn-museum {
+  background-color: rgba(159,62,62, 1);
+}
+.nav.nav-pills.experiences-brooklyn-museum > li > a:focus,
+.nav.nav-pills.experiences-brooklyn-museum > li > a:hover,
+#hide-utility.experiences-brooklyn-museum {
+  color: #9f3e3e;
+}
+
+/* .experiences-galatea */
+.nav-block.experiences-galatea {
+  background-color: rgba(49,70,89, 0.85);
+}
+.nav-block.experiences-galatea nav > ul > li.off-1 {
+  background-color: rgba(49,70,89, 0.5);
+}
+.nav-block.experiences-galatea nav > ul > li.off-2 {
+  background-color: rgba(49,70,89, 0.9);
+}
+.nav-utility.experiences-galatea {
+  background-color: rgba(49,70,89, 1);
+}
+.nav.nav-pills.experiences-galatea > li > a:focus,
+.nav.nav-pills.experiences-galatea > li > a:hover,
+#hide-utility.experiences-galatea {
+  color: #314659;
+}

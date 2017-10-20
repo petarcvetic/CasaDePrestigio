@@ -1,0 +1,318 @@
+/*
+@media screen and (max-width: 992px) and (min-width: 767px) {
+
+    
+}
+
+
+/*PETAR----------------------------------------------------------------*/
+#bodyBox{
+	background-image: url("../img/back.jpg");  
+	width:100%;
+	height:100%;
+	position:fixed;
+}
+
+#zavese{
+	background-color:rgba(22, 160, 133, 0.7);
+}
+
+#garnisne{
+	background-color:rgba(243, 156, 18, 0.7);
+}
+
+#zabra{
+	background-color:rgba(106, 21, 65, 0.7);
+}
+
+#paketo{
+	background-color:rgba(154,10,34, 0.7);
+}
+
+#tapete{
+	background-color:rgba(150,168,44, 0.7);
+}
+
+#mebli{
+	background-color:rgba(40,97,152, 0.7);
+}
+
+#dekoracija{
+	background-color:rgba(231, 76, 60, 0.7);
+}
+
+#decijiProgram{
+	background-color:rgba(179,87,209, 0.7);
+}
+
+#informacije{
+/*	padding-top:50px;   */
+	min-height:100%;
+	background-color:rgba(72,74,82, 0.7);
+}
+
+iframe{
+	float:right;
+	margin:20px;
+}
+
+#info{	
+	font-size:150%;
+	padding:100px 20px 0 20px;
+	/*color:rgb(220, 220, 220);*/
+	color:rgb(255,255,255);
+	width:500px;
+}
+
+.red{
+	height:50px;
+}
+
+.red1{
+	height:88px;
+}
+
+.desno{
+	width:60%;
+	text-align:left;
+	float:right;
+}
+
+
+.naslov{
+	margin:100px 0 20px 0;
+	text-align:center;
+	color:white;
+}
+
+#tekst{
+	font-size:150%;
+	padding:20px 20px 0 20px;
+	width:90%;
+	margin:auto;   
+	/*color:rgb(220, 220, 220);*/
+	color:rgb(255,255,255)
+}
+
+#footer{
+	position:absolute;
+	text-align:center;
+	background-color:black;
+	color:white;
+}
+
+.blok{
+	position:absolute;
+	width:86%;
+	margin-left:7%;
+}
+
+.right-img-box{
+	position:absolute;
+	right:0;
+	top:100px;
+	width:50%;
+	padding:15px;
+}
+
+.image-sections{
+	background-color:red;
+	width:95%;
+	margin:auto;
+}
+
+
+.artikal-image{
+	display: block;
+	width:33%;
+	height:auto;
+	float:left;
+	margin:auto;
+	padding:2.5%;
+}
+
+
+#secoundMenu{
+	position: fixed;
+    right: 160px;
+    top: -10px;
+	/*background-color: rgba(140, 140, 140, 0.5);*/
+	height:35px;
+	font-size:160%;
+}
+
+#burgerMenu{
+	display:none;
+}
+
+.proizvod{
+	margin-bottom:10px;
+}
+
+
+.social-icons:hover a{
+	color:#000000;
+}
+
+.logo pull-left{
+	width:230px;
+}
+	
+
+/*END PETAR------------------------------------------------------------*/
+@media screen and (max-width: 1330px) and (min-width: 1000px) {
+
+	iframe{
+		width:50%;
+		height:350px;
+		margin:20px;
+	}
+
+	#info{	
+		font-size:120%;
+		padding:100px 20px 0 20px;
+		/*color:rgb(220, 220, 220);*/
+		color:rgba(255,255,255,1.00);
+		width:45%;
+	}
+	
+	.logo pull-left {
+	width:114px;
+}
+
+}
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+
+   .blok{
+		position:absolute;
+		width:86%;
+		margin-left:7%;
+		overflow: scroll;
+	}
+	
+	.artikal-image{
+		display: block;
+		width:33%;
+		height:auto;
+		float:left;
+		margin:auto;   
+		padding:2.5%;  
+	}
+	
+	#secoundMenu{
+		position: fixed;
+		right: 60px;
+		top: -10px;
+		/*background-color: rgba(140, 140, 140, 0.5);*/
+		height:35px;
+	}
+
+	
+	
+	.naslov{
+		margin:50px;
+		text-align:center;
+		color:white;
+	}
+
+	#tekst{
+		font-size:150%;
+		padding:20px 20px 0 20px;
+		width:90%;
+		margin:auto;   
+		/*color:rgb(220, 220, 220);*/
+		color:rgba(255,255,255,1.00);
+	}
+	
+	iframe{
+		float:none;
+		width:80%;
+		height:350px;
+		margin:20px 10% 20px 10%;
+	}
+
+	#info{	
+		font-size:100%;
+		padding:40px 20px 40px 20px;
+		/*color:rgb(220, 220, 220);*/
+		color:rgba(255,255,255,1.00);
+		width:500px;
+	}
+
+.logo pull-left {
+	width:114px;
+}
+
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 355px) {
+
+   .blok{
+		position:absolute;
+		width:100%;
+		margin-left:0;
+		overflow: scroll;
+	}
+	
+	.artikal-image{
+		display: block;
+		width:45%;
+		height:auto;
+		float:left;
+		margin:2.5%;   
+/*		padding:2.5%;  */
+	}
+	
+	#secoundMenu{
+		visibility:visible;
+		position: fixed;
+		right: 0px;
+		top: 0px;  
+		background-color: rgba(140, 140, 140, 0);
+		height:35px;
+	}
+	
+	#burgerMenu{
+		display:initial;
+	}
+	
+	
+	.naslov{
+		font-size:200%;
+		margin:30px 10px;
+		text-align:center;
+		color:white;
+	}
+
+	#tekst{
+		font-size:120%;
+		padding:20px 10px 0 10px;
+		width:95%;
+		margin:auto;   
+		/*color:rgb(220, 220, 220);*/
+		color:rgba(255,255,255,1.00);
+	}
+	
+	iframe{
+		float:none;
+		width:90%;
+		height:350px;
+		margin:20px 5% 20px 5%;
+	}
+
+	#info{	
+		font-size:110%;
+		padding:30px 20px 40px 20px;
+		color:rgb(220, 220, 220);
+		width:90%;
+	}
+
+.logo pull-left{
+	width:114px;
+}
+
+}

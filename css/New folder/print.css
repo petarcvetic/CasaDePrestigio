@@ -1,0 +1,54 @@
+@media print {
+    * {
+        color: #000 !important;
+        background-color: #fff !important;
+    }
+    .nine-cols {
+        width: 1024px;
+    }
+    .nine-cols .fabric-item {
+        page-break-inside: avoid !important;
+        height: auto;
+        position: relative;
+        width: 155px;
+    }
+    nav,
+    .accent-color,
+    .back,
+    .breadcrumb,
+    .detail-title,
+    .detail-wrapper > p,
+    .fabrics-filters,
+    .fav-fabric.add,
+    .favorites-action,
+    .filters-search-action,
+    .fp-tableCell,
+    .grey-circle-left,
+    .links,
+    .logo,
+    .nav-block,
+    .nav-directional,
+    .page-hero,
+    .page-gallery,
+    .menu-sticky-wrapper,
+    .switcher,
+    .tab-content,
+    .white-circle-left,
+    .img-overlay-new,
+    .img-overlay-discontinued {
+        display: none !important;
+    }
+    .row-scrollable,
+    .switcher-content,
+    .thumbnail-fabrics {
+        display: block !important;
+        white-space: normal !important;
+    }
+    .title {
+        float: left !important;
+        width: 100% !important;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+}
